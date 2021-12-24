@@ -1,11 +1,11 @@
 package com.task;
 
-import java.util.*;
+import java.util. *;
 
-public class HashMap {
+public class TaskHashMap {
     public static void main(String[] args) {
         //1
-        java.util.HashMap<String, String> hashMap = new java.util.HashMap();
+        HashMap<String, String> hashMap = new HashMap();
         hashMap.put("1", "golova");
         hashMap.put("2", "uho");
         hashMap.put("3", "dvaUha");
@@ -17,7 +17,7 @@ public class HashMap {
         System.out.println(hashMap.size());
 
         //3
-        java.util.HashMap<String, String> hashMap2 = new java.util.HashMap();
+        HashMap<String, String> hashMap2 = new HashMap();
         hashMap2.put("4", "golova");
         hashMap2.put("5", "uho");
         hashMap2.put("6", "dvaUha");
@@ -31,8 +31,8 @@ public class HashMap {
         System.out.println(hashMap.isEmpty());
 
         //6
-        java.util.HashMap<String, String> hashMap3 = new java.util.HashMap();
-        hashMap3 = (java.util.HashMap<String, String>) hashMap2.clone();
+        HashMap<String, String> hashMap3 = new HashMap();
+        hashMap3 = (HashMap<String, String>) hashMap2.clone();
         System.out.println(hashMap3);
 
         //7
