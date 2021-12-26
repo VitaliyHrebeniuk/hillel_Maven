@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+    <test name="Regression1" preserve-order="false">
+        <classes>
+
+            <class name="com.lesson16.CalculateTC1">
+                <methods>
+                    <include name="testSum1" />
+                </methods>
+            </class>
+
+            <class name="com.lesson16.CalculateTC2" />
+
+        </classes>
+    </test>
+
+</suite>
